@@ -1,0 +1,7 @@
+CREATE TABLE `bikemee`.`UserDetails`
+ ( `user_id` INT(8) NOT NULL AUTO_INCREMENT , `fname` VARCHAR(120)
+ CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL , `lname` VARCHAR(120)
+ CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL , `email` VARCHAR(120)
+ CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL , `password` VARCHAR(60)
+ CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL , `created_at` TIMESTAMP(6)
+ NOT NULL DEFAULT CURRENT_TIMESTAMP(6) , PRIMARY KEY (`user_id`)) ENGINE = MyISAM;
