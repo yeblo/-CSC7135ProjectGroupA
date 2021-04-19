@@ -160,10 +160,10 @@ class _MapPageState extends State<MapPage> {
       );
 
       _markers.add(
-          Marker(markerId: MarkerId('id-3'), position: LatLng( 30.3929067, -911851912),
+          Marker(markerId: MarkerId('id-3'), position: LatLng( 30.3929067, -91.1851912),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Louisiana School for the Deaf',
                   snippet: '10 Bikes available',
               ),
             onTap: (){
@@ -176,7 +176,7 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-4'), position: LatLng(30.3971006, -91.1976882),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Brightside Dr.',
                   snippet: '10 Bikes available',
 
               ),
@@ -192,7 +192,7 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-5'), position: LatLng(30.4035984, -91.1739149),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Swire Dr.',
                   snippet: '10 Bikes available',
                     // ShowBottom()
               ),
@@ -207,7 +207,7 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-6'), position: LatLng(30.4042745, -91.1780395),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Tiger Pointe',
                   snippet: '10 Bikes available',
 
               ),
@@ -222,7 +222,8 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-7'), position: LatLng(30.4066777, -91.1893096),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Alex Box Permit Lot
+',
                   snippet: '10 Bikes available',
               ),
               onTap: (){
@@ -236,7 +237,7 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-8'), position: LatLng(30.4055365, -91.1774526),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Touchdown Village 1',
                   snippet: '10 Bikes available',
 
               ),
@@ -251,7 +252,7 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-9'), position: LatLng(30.4182786,-91.1817367),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'West Campus Apartments',
                   snippet: '10 Bikes available',
               ),
             onTap: (){
@@ -265,7 +266,7 @@ class _MapPageState extends State<MapPage> {
           Marker(markerId: MarkerId('id-10'), position: LatLng(30.4091728,-91.1892926),
               icon: mapMarker,
               infoWindow: InfoWindow(
-                  title: 'LSU Student Union',
+                  title: 'Football Operations Center',
                   snippet: '10 Bikes available',
                 onTap: (){
                   _showSheet();
